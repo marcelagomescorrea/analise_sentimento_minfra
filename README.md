@@ -85,28 +85,28 @@ Segue abaixo, demais considerações sobre o modelo desenvolvido:
 ### :chart_with_upwards_trend: **Benefícios para o Negócio**
 
 
-*    Extração de *insights*, que permitem ao gestor atuar de forma proativa e redefinir estratégias de ação (cidadão como parceiro e coprodutor de políticas públicas):
+1. Extração de *insights*, que permitem ao gestor atuar de forma proativa e redefinir estratégias de ação (cidadão como parceiro e coprodutor de políticas públicas):
        - Reclamações sobre o preço dos pedágios;
        - Questionamento sobre duplicação de trechos rodoviários e BR470;
       
-*   Entendimento de como os clientes enxergam o negócio (cidadão como sensor e não apenas alvo de informações do governo):
+2. Entendimento de como os clientes enxergam o negócio (cidadão como sensor e não apenas alvo de informações do governo):
       - Verificou-se uma maior quantidade de comentários positivos em relação aos negativos e questionamentos, no período apurado. 
 
-*   Visão abrangente e próximo do tempo real do *feedback* dos usuários em todo território nacional.
+3. Visão abrangente e próximo do tempo real do *feedback* dos usuários em todo território nacional.
 
 
 ### :chart_with_downwards_trend: **Pontos de melhoria**
 
-*   A biblioteca utilizada no processo de lematização não funciona tão bem com palavras em português;
-*   Melhoria do processo de limpeza, que é custoso;
-*   Melhoraria e padronização do processo de coleta:
+1.  A biblioteca utilizada no processo de lematização não funciona tão bem com palavras em português;
+2.  Melhoria do processo de limpeza, que é custoso;
+3.  Melhoraria e padronização do processo de coleta:
     - foram perdidos os *emojis* durante a coleta?
     - houve moderação?
     - classificação enviesada por ter sido feita apenas por uma pessoa?
-*   Nova coleta de tweets negativos e questionamento pela área de negócio;
-*   Utilização de modelo pré-treinado, como o BERT, seria mais eficiente?
-*   Utilização de técnicas de *deep learning*;
-*   Aplicar técnicas capazes de melhorar a precisão da classificação automatizada em textos com alta carga de ironia e ambiguidade. 
+4.  Nova coleta de tweets negativos e questionamento pela área de negócio;
+5.  Utilização de modelo pré-treinado, como o BERT, seria mais eficiente?
+6.  Utilização de técnicas de *deep learning*;
+7.  Aplicar técnicas capazes de melhorar a precisão da classificação automatizada em textos com alta carga de ironia e ambiguidade. 
 
 ## 🤝 Colaboradores
 
