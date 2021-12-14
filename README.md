@@ -86,8 +86,8 @@ Segue abaixo, demais considerações sobre o modelo desenvolvido:
 
 
 1. Extração de *insights*, que permitem ao gestor atuar de forma proativa e redefinir estratégias de ação (cidadão como parceiro e coprodutor de políticas públicas):
-       - Reclamações sobre o preço dos pedágios;
-       - Questionamento sobre duplicação de trechos rodoviários e BR470;
+   - Reclamações sobre o preço dos pedágios;
+   - Questionamento sobre duplicação de trechos rodoviários e BR470;
       
 2. Entendimento de como os clientes enxergam o negócio (cidadão como sensor e não apenas alvo de informações do governo):
       - Verificou-se uma maior quantidade de comentários positivos em relação aos negativos e questionamentos, no período apurado. 
