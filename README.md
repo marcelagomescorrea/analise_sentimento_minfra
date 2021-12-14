@@ -14,29 +14,31 @@
 > Treinamento supervisionado de modelo de Machine Learning de classificação e Análise de Sentimento com base no texto dos comentários dos twitters coletados  do perfil institucional do Ministro de Infraestrutura no Twitter, a fim de auxiliar na tomada de decisão.
 
 
-### Ajustes e melhorias
+### Etapas do projeto
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [x] Análise exploratória
+- [x] Análise exploratória dos dados
 - [x] Limpeza e preparação dos dados 
 - [x] Treinamento e teste cego de modelos de classificação
 - [x] Otimização de hiperparâmetros
-- [x] Avaliação e interpretação de resultados
-- [ ] Colocar o modelo em produção
+- [x] Avaliação e interpretação dos resultados
+- [ ] Apresentação para a área de negócio
+- [ ] Implantação do modelo em produção
 
-## 💻 Pré-requisitos
+## 💻 Pré-requisitos do sistema
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* Você tem uma máquina `<Windows / Linux / Mac>`.
-* Criar uma conta no Google Colaboratory `<Jupyter Notebook/ Python/ Sklearn>`
+* Máquina com sistema operacional `<Windows / Linux / Mac>`;
+* Conta no Google Colaboratory;
+* Linguagem de programação`<Python>`.
 
 ## ☕ Descrição do problema
 
 O Ministério da Infraestrutura tem como visão tornar o Brasil líder em infraestrutura de transportes na América Latina e para isso é preciso “mensurar” o quão perto isso está de acontecer. Uma das formas de se fazer isso, seria utilizar os dados do Twitter analisando o que os cidadãos têm falado sobre as rodovias brasileiras, por exemplo. 
 
-No entanto, analisar os dados de maneira manual e **classificar os tweets** nas classes **positivo, negativo ou questionamento** é uma tarefa **custosa, complexa** e passível de **erro humano** ou **subjetividade**.
+No entanto, analisar os dados de maneira manual e **classificar os tweets** nas classes **positivo, negativo ou questionamento** é uma **tarefa custosa, complexa** e passível de **erro humano** ou **subjetividade**.
 
 
 ## 🚀 Descrição da solução de IA
@@ -47,9 +49,9 @@ No entanto, analisar os dados de maneira manual e **classificar os tweets** nas 
 ## 📫 Fonte dos dados
 As bases de dados utilizadas são abertas e não possuem dados sigilosos. 
 
-1.   [Banco de dados do MInfra:]() contém Tweets coletados e classificados manualmente pela área de negócio do MINFRA;
+1.   [Banco de dados do MInfra:](https://github.com/marcelagomescorrea/analise_sentimento_minfra/blob/main/dados/replies_classificadas_minfra.csv) contém Tweets coletados e classificados manualmente pela área de negócio do MINFRA;
 2.   [Base de dados do Kaggle com tweets já classificados](https://www.kaggle.com/augustop/portuguese-tweets-for-sentiment-analysis): para aumento do número da classe 'negativo';
-3.   [Base de dados complementar:]()Tweets coletados e classificados manualmente por nós para aumento do número da classe 'questionamento';
+3.   [Base de dados complementar:](https://github.com/marcelagomescorrea/analise_sentimento_minfra/blob/main/dados/replies_classificadas_plus.csv)Tweets coletados e classificados manualmente por nós para aumento do número da classe 'questionamento';
 
 
 ## :game_die: Variáveis independentes
@@ -57,7 +59,7 @@ Atributo **texto_reply**: contém os textos dos comentários do Tweeter.
 
 
 ## :dart: Variáveis dependentes
-Atributo **classificacao**: expressa três classes de sentimentos <positivo, negativo ou questionamento>
+Atributo **classificacao**: contém as três classes de sentimentos <positivo, negativo ou questionamento>
 
 ## :books: Bibliotecas utilizadas
 1. Exploração de dados: **Pandas, Numpy**
@@ -70,7 +72,7 @@ Atributo **classificacao**: expressa três classes de sentimentos <positivo, neg
 8. Avaliação dos resultados: **Sklearn <F1-score, DummyClassifier, Matriz de Confusão>**
 9. Interpretação do modelo: **Sklearn <SGDClassifier.coef_>, Eli5**
 
-## 🤝 Considerações Finais 
+## :raised_hands: Considerações Finais 
 As **redes sociais** são, atualmente, **grandes fontes de dados** capazes de capturar a **opinião pública** sobre os mais **diversos assuntos**. Dessa forma, podem contribuir significativamente para o aumento da **participação social** nas **políticas públicas**.
 
 Esse projeto buscou mensurar a opinião pública sobre o tema de negócio  **rodovias**, do **Ministério de Infraestrutura** e avaliar sua aplicabilidade para **melhoria da tomada de decisão** no âmbito institucional. 
