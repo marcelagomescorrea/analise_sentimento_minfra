@@ -11,7 +11,7 @@
 
 # Análise de sentimento do MINFRA
 
-> Treinamento supervisionado de modelo de Machine Learning de classificação e Análise de Sentimento com base no texto dos comentários dos twitters coletados  do perfil institucional do Ministro de Infraestrutura no Twitter, a fim de auxiliar na tomada de decisão.
+> Treinamento supervisionado de modelo de Machine Learning de classificação e Análise de Sentimento com base no texto dos comentários dos tweets coletados  do perfil institucional do Ministro de Infraestrutura no Twitter, a fim de auxiliar na tomada de decisão.
 
 
 ### Etapas do projeto
