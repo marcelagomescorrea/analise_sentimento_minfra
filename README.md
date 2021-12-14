@@ -30,7 +30,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
 * Você tem uma máquina `<Windows / Linux / Mac>`.
-* Criar uma conta no Google Colaboratory `<Jupter Notebook/ Python/ Sklearn>`
+* Criar uma conta no Google Colaboratory `<Jupyter Notebook/ Python/ Sklearn>`
 
 ## ☕ Descrição do problema
 
