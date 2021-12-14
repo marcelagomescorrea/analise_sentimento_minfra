@@ -32,14 +32,14 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Você tem uma máquina `<Windows / Linux / Mac>`.
 * Criar uma conta no Google Colaboratory `<Jupter Notebook/ Python/ Sklearn>`
 
-## 🚀 Descrição do problema
+## ☕ Descrição do problema
 
 O Ministério da Infraestrutura tem como visão tornar o Brasil líder em infraestrutura de transportes na América Latina e para isso é preciso “mensurar” o quão perto isso está de acontecer. Uma das formas de se fazer isso, seria utilizar os dados do Twitter analisando o que os cidadãos têm falado sobre as rodovias brasileiras, por exemplo. 
 
 No entanto, analisar os dados de maneira manual e **classificar os tweets** nas classes **positivo, negativo ou questionamento** é uma tarefa **custosa, complexa** e passível de **erro humano** ou **subjetividade**.
 
 
-## ☕ Descrição da solução de IA
+## 🚀 Descrição da solução de IA
 
 **Treinamento supervisionado** de modelo de **Machine Learning** de **classificação** e Análise de Sentimento com base no texto dos comentários dos twitters coletados  do perfil institucional do Ministro de Infraestrutura no Twitter.>
 
@@ -52,16 +52,16 @@ As bases de dados utilizadas são abertas e não possuem dados sigilosos.
 3.   [Base de dados complementar:]()Tweets coletados e classificados manualmente por nós para aumento do número da classe 'questionamento';
 
 
-## Variáveis independentes
+## :game_die: Variáveis independentes
 Atributo **texto_reply**: contém os textos dos comentários do Tweeter.
 
 
-## Variáveis dependentes
+## :dart: Variáveis dependentes
 Atributo **classificacao**: expressa três classes de sentimentos <positivo, negativo ou questionamento>
 
-## 🤝 Técnicas utilizadas
+## :art: Técnicas utilizadas
 1. Exploração de dados: **Pandas, Numpy**
-2. Visualização de dados: **Seaborn, Matplotlib**
+2. Visualização de dados: **Seaborn, Matplotlib, plotly**
 3. Limpeza e Preparação dos dados: **Regex**
 4. Processamento de Linguagem Natural: **NLTK, Spacy**
 5. Treinamento: **Train Test Split, Cross validation**
@@ -81,7 +81,7 @@ Conforme demonstrado pela métrica **F1 score**, que combina precisão e *recall
 
 Segue abaixo, demais considerações sobre o modelo desenvolvido:
 
-### **Benefícios para o Negócio**
+### :chart_with_upwards_trend: **Benefícios para o Negócio**
 
 
 *    Extração de *insights*, que permitem ao gestor atuar de forma proativa e redefinir estratégias de ação (cidadão como parceiro e coprodutor de políticas públicas):
@@ -93,13 +93,9 @@ Segue abaixo, demais considerações sobre o modelo desenvolvido:
 
 *   Visão abrangente e próximo do tempo real do *feedback* dos usuários em todo território nacional.
 
-
-
 ---
 
-
-
-### **Pontos de melhoria**
+### :chart_with_downwards_trend: **Pontos de melhoria**
 
 *   A biblioteca utilizada no processo de lematização não funciona tão bem com palavras em português;
 *   Melhoria do processo de limpeza, que é custoso;
@@ -120,6 +116,30 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
+        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Edmundo no GitHub"/><br>
+        <sub>
+          <b>Edmundo</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGzjEUjiIvC8g/profile-displayphoto-shrink_800_800/0/1637205640390?e=1645056000&v=beta&t=KGobfhdsFnnCbUWH9u7m02IVpc2SNd6OGWqXH0-C2sw" width="100px;" alt="Liliane Vieira Lopes"/><br>
+        <sub>
+          <b>Liliane Vieira Lopes</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://media-exp1.licdn.com/dms/image/C5603AQF7135aqFs7ag/profile-displayphoto-shrink_800_800/0/1517602492222?e=1645056000&v=beta&t=0nN7RJNov3ZVdy3h-JOUf9Hb06z2H8vUhsM_QeJGFec" width="100px;" alt="Foto da Marcela"/><br>
+        <sub>
+          <b>Marcela Gomes Corrêa</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
         <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
         <sub>
           <b>Iuri Silva</b>
@@ -128,17 +148,9 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
         <sub>
-          <b>Mark Zuckerberg</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
-        <sub>
-          <b>Steve Jobs</b>
+          <b>Iuri Silva</b>
         </sub>
       </a>
     </td>
