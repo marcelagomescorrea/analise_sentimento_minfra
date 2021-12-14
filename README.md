@@ -30,7 +30,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
 * Máquina com sistema operacional `<Windows / Linux / Mac>`;
-* Conta no Google Colaboratory;
+* Ambiente de desenvolvimento  `<Google Colaboratory> <Jupyter Notebook>`;
 * Linguagem de programação`<Python>`.
 
 ## ☕ Descrição do problema
