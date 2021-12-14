@@ -11,8 +11,8 @@
 
 # Análise de sentimento do MINFRA
 
-> Treinamento supervisionado de modelo de Machine Learning de classificação e Análise de Sentimento com base no texto dos comentários dos twitters coletados  do perfil institucional do Ministro de Infraestrutura no Twitter.
-> 
+> Treinamento supervisionado de modelo de Machine Learning de classificação e Análise de Sentimento com base no texto dos comentários dos twitters coletados  do perfil institucional do Ministro de Infraestrutura no Twitter, a fim de auxiliar na tomada de decisão.
+
 
 ### Ajustes e melhorias
 
@@ -59,16 +59,16 @@ Atributo **texto_reply**: contém os textos dos comentários do Tweeter.
 ## :dart: Variáveis dependentes
 Atributo **classificacao**: expressa três classes de sentimentos <positivo, negativo ou questionamento>
 
-## :art: Técnicas utilizadas
+## :books: Bibliotecas utilizadas
 1. Exploração de dados: **Pandas, Numpy**
 2. Visualização de dados: **Seaborn, Matplotlib, plotly**
 3. Limpeza e Preparação dos dados: **Regex**
 4. Processamento de Linguagem Natural: **NLTK, Spacy**
-5. Treinamento: **Train Test Split, Cross validation**
-6. Modelos de Machine Learning: **SGDClassifier, SVC, DecisionTreeClassifier, RandomForestClassifier, MultinomialNB, XGBClassifier**
-7. Otimização de hiperparâmetros: **GridSearchCV**
-8. Avaliação dos resultados: **F1-score, DummyClassifier, Matriz de Confusão**
-9. Interpretação do modelo: **SGDClassifier.coef_, Eli5**
+5. Treinamento: **Sklearn <Train Test Split, Cross validation>**
+6. Modelos de Machine Learning: **Sklearn <SGDClassifier, SVC, DecisionTreeClassifier, RandomForestClassifier, MultinomialNB, XGBClassifier>**
+7. Otimização de hiperparâmetros: **Sklearn <GridSearchCV, Pipeline>**
+8. Avaliação dos resultados: **Sklearn <F1-score, DummyClassifier, Matriz de Confusão>**
+9. Interpretação do modelo: **Sklearn <SGDClassifier.coef_>, Eli5**
 
 ## 🤝 Considerações Finais 
 As **redes sociais** são, atualmente, **grandes fontes de dados** capazes de capturar a **opinião pública** sobre os mais **diversos assuntos**. Dessa forma, podem contribuir significativamente para o aumento da **participação social** nas **políticas públicas**.
@@ -93,7 +93,6 @@ Segue abaixo, demais considerações sobre o modelo desenvolvido:
 
 *   Visão abrangente e próximo do tempo real do *feedback* dos usuários em todo território nacional.
 
----
 
 ### :chart_with_downwards_trend: **Pontos de melhoria**
 
@@ -116,9 +115,9 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Edmundo no GitHub"/><br>
+        <img src="https://media-exp1.licdn.com/dms/image/C5603AQFj0jsCGywiOg/profile-displayphoto-shrink_800_800/0/1516350646007?e=1645056000&v=beta&t=Y8a5qAi_LOnTUJgehh6PQ-HxXgYfolcCBdewhec0sf0" width="100px;" alt="Foto do Edmundo no GitHub"/><br>
         <sub>
-          <b>Edmundo</b>
+          <b>Francisco Edmundo Andrade</b>
         </sub>
       </a>
     </td>
@@ -140,17 +139,17 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://scontent.fbsb3-1.fna.fbcdn.net/v/t31.18172-8/340515_10150313675155895_948037750_o.jpg?_nc_cat=103&ccb=1-5&_nc_sid=174925&_nc_eui2=AeEZ2wUYSl6Hh4-GjqfW5mKaOqSqyuq0G5A6pKrK6rQbkAFDlMQg0AU3hvw1bTwe7RMNkVSRrGfRwchUpKjNn5Ph&_nc_ohc=DCVeWz8fF64AX-9aSsA&_nc_ht=scontent.fbsb3-1.fna&oh=00_AT_6bzsGquJ5-q7R8IXtVtS0cI0kdO7MdqrtbCuFWajg9A&oe=61DDE495" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Priscilla A. S. Rodrigues</b>
         </sub>
       </a>
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFbvlQwbdb4Kw/profile-displayphoto-shrink_800_800/0/1516338237063?e=1645056000&v=beta&t=fspFF5TSjafN5DNrVJyI5R2uHz7uwSN5msITPTZUrV8" width="100px;" alt="Foto do Jose Renato Borelli no linkedin"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Jose Renato Borelli</b>
         </sub>
       </a>
     </td>
@@ -158,13 +157,15 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 </table>
 
 
-## 😄 Seja um dos contribuidores<br>
-
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
 
 ## 📝 Licença
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+Esse projeto está sob licença Creative Commons. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+
 
 [⬆ Voltar ao topo](#nome-do-projeto)<br>
+
+<a href="https://ibb.co/6wwFdfR"><img src="https://i.ibb.co/g99JnBM/Realiza-o.png" alt="Realiza-o" border="0"></a>
+
+
 
