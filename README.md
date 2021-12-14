@@ -61,15 +61,15 @@ Atributo **texto_reply**: contém os textos dos comentários do Tweeter.
 Atributo **classificacao**: contém as três classes de sentimentos <positivo, negativo ou questionamento>
 
 ## :books: Bibliotecas utilizadas
-1. Exploração de dados: **Pandas, Numpy**
-2. Visualização de dados: **Seaborn, Matplotlib, plotly**
-3. Limpeza e Preparação dos dados: **Regex**
-4. Processamento de Linguagem Natural: **NLTK, Spacy**
-5. Treinamento: **Sklearn <Train Test Split, Cross validation>**
-6. Modelos de Machine Learning: **Sklearn <SGDClassifier, SVC, DecisionTreeClassifier, RandomForestClassifier, MultinomialNB, XGBClassifier>**
-7. Otimização de hiperparâmetros: **Sklearn <GridSearchCV, Pipeline>**
-8. Avaliação dos resultados: **Sklearn <F1-score, DummyClassifier, Matriz de Confusão>**
-9. Interpretação do modelo: **Sklearn <SGDClassifier.coef_>, Eli5**
+1. Exploração de dados:`<Pandas> <Numpy>`
+2. Visualização de dados: `<Seaborn> <Matplotlib> <Plotly>`
+3. Limpeza e Preparação dos dados: `<Regex>`
+4. Processamento de Linguagem Natural: `<NLTK> <Spacy>`
+5. Treinamento: `Sklearn <Train Test Split, Cross validation>`
+6. Modelos de Machine Learning: `Sklearn <SGDClassifier, SVC, DecisionTreeClassifier, RandomForestClassifier, MultinomialNB, XGBClassifier>`
+7. Otimização de hiperparâmetros: `Sklearn <GridSearchCV, Pipeline>`
+8. Avaliação dos resultados: `Sklearn <F1-score, DummyClassifier, Matriz de Confusão>`
+9. Interpretação do modelo:  `Sklearn <SGDClassifier.coef_> <Eli5> `
 
 ## :raised_hands: Considerações Finais 
 As **redes sociais** são, atualmente, **grandes fontes de dados** capazes de capturar a **opinião pública** sobre os mais **diversos assuntos**. Dessa forma, podem contribuir significativamente para o aumento da **participação social** nas **políticas públicas**.
